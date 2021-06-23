@@ -1,0 +1,52 @@
+.profile {
+  /* height: calc(100vh - 155px); */
+  padding: 100px 20px;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.profileHeading {
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 1px solid #979797;
+}
+
+.profileDetail {
+  display: flex;
+  width: 60%;
+  margin: 30px auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.profileDetail > img {
+  /* width: 200px; */
+}
+
+.profileDetail > div {
+  flex-direction: row;
+  align-items: center;
+}
+.profileDetail > div > .profileName,
+.profileEmail {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.logoutBtn{
+    width: 80%;
+    margin: 0 auto;
+}
+button {
+margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #979797;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: #8b572a; /* Green */
+  color: white;
+  opacity: 0.8;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>homepage</title>
+    <link rel="stylesheet" type="text/css" href="./css/app.css" />
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y590NXK4DT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y590NXK4DT');
+</script>
+  </head>
+
+  <body>
+    <header class="headercontainer cf fixed">
+      <div class="headercontainer2">
+        <a href="index.html" class="nav1">
+          <img
+            src="images/logo.png"
+            class="btn_logo01"
+          />
+        </a>
+        <ul class="first-nav">
+            <li class="listItem"><a href="./?tag=women">女裝</a></li>
+            <li class="space">|</li>
+            <li class="listItem"><a href="./?tag=men">男裝</a></li>
+            <li class="space">|</li>
+            <li class="listItem"><a href="./?tag=accessories">配件</a></li>
+        </ul>
+        
+        <form >
+        <input type="text" class="searchInput" name="tag">
+        </form>
+        <nav class="nav2">
+          <div class="webNav2">
+            <a class = "cart" href="cart.html">
+              <img
+                  class="btn_shopping-cart01_add"
+                  src="./images/cart.png"
+              />
+              <div class=cartNumber></div>
+            </a>
+          </div>
+          <div class="webNav2">
+            <img class="btn_member01_normal" src="images/member.png" />
+            
+          </div>
+            <!-- below is RWD nav2 -->
+          <div class="rwdNav2 rwdNav2first">
+            <a class = "cart" href="cart.html">
+              <img
+                  class="btn_shopping-cart02_add"
+                  src="./images/cart-mobile.png"
+              />
+              <div class="cartNumber"></div>
+              <div class="mobilefooter">購物車</div>
+          </a>
+          </div>
+          
+          <div class="rwdNav2 loginButton">
+            <img class="btn_member01_mobile" src="images/btn-member-02-normal@3x.png" />
+            <div class="mobilefooter">會員</div>
+          </div>
+          
+        </nav>
+      </div>
+    </header>
+
+
+
+    <main>
+      <div class="campaigns" id="campaigns">
+       <div class="campaign__story">
+         <!-- 瞬間
+在城市的角落
+找到失落多時的記憶。
+印象《都會故事集》 -->
+        </div>
+        <div class="dots">
+          <!-- <div class = "dot"></div>
+          <div class = "dot"></div>
+          <div class = "dot"></div> -->
+        </div>
+      </div>
+
+      <div class="productsContainer">
+        
+      </div>
+    </main>
+
+    <footer>
+        <nav class="footercontainer">
+            <nav class="nav3">
+                <ul class="nav3ul">
+                    <li class="-Stylish">關於Stylish</li>
+                    <li class="-Stylish">服務條款</li>
+                    <li class="-Stylish">隱私政策</li>
+                    <li class="-Stylish">聯絡我們</li>
+                    <li class="-Stylish lastli">FAQ</li>
+                </ul>
+            </nav>
+            <div class="linkIcon">
+                <img src="./images/btn-line-01-normal.png" />
+                <img src="./images/btn-twitter-01-normal.png" />
+                <img src="./images/btn-facebook-01-normal.png" />
+            </div>
+        </nav>
+      <div class="right">© 2018. All rights reserved.</div>
+    </footer>
+
+    <nav class="mobilefooter"></nav>
+
+    
+    <script type="module" src= ./js/app.js></script>
+    <script type="text/javascript" src= ./js/campaign.js></script>
+    <!-- <script type="text/javascript" src= ./js/product.js></script> -->
+
+    <!-- <script type="text/javascript" src= ./js/fb.js></script> -->
+  </body>
+</html>
