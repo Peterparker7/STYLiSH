@@ -1,4 +1,12 @@
-# Front-End Class Batch #13
+# STYLiSH
+
+An E-commerce website for trendy outfits.
+
+## Demo
+
+![image](./README/STYLiSH-gif.gif)
+
+<a href="https://git.io/Jn9Sl"><strong>View Website »</strong></a>
 
 ## Outline
 
